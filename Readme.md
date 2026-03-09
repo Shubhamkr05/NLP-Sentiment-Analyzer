@@ -49,6 +49,7 @@ The interface allows users to:
 # Machine Learning Pipeline
 
 The sentiment prediction system follows a complete machine learning pipeline:
+
 Raw Text Input
       ↓
 Text Normalization
