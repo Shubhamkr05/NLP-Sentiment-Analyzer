@@ -22,7 +22,7 @@ A **Flask-based web interface** allows users to enter sentences and instantly vi
 
 Below is the web interface where users can test sentences and view sentiment predictions.
 
-![Sentiment Analysis UI](screenshots/ui_prediction.png)
+![Sentiment Analysis UI](screenshots/Ui-Predicition.png)
 
 The interface allows users to:
 
