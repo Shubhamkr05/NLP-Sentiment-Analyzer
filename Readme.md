@@ -49,4 +49,16 @@ The interface allows users to:
 # Machine Learning Pipeline
 
 The sentiment prediction system follows a complete machine learning pipeline:
-
+Raw Text Input
+      ↓
+Text Normalization
+      ↓
+TF-IDF Vectorization
+      ↓
+Dimensionality Reduction (SVD)
+      ↓
+Random Forest Regression
+      ↓
+Sentiment Score Prediction
+      ↓
+Label Mapping (Negative / Neutral / Positive)
