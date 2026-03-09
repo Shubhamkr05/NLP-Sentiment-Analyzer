@@ -50,16 +50,15 @@ The interface allows users to:
 
 The sentiment prediction system follows a complete machine learning pipeline:
 
-Raw Text Input
-↓
-Text Normalization
-↓
-TF-IDF Vectorization
-↓
-Dimensionality Reduction (SVD)
-↓
-Random Forest Regression
-↓
-Sentiment Score Prediction
-↓
-Label Mapping (Negative / Neutral / Positive)
+## System Architecture
+
+```mermaid
+flowchart TD
+
+A[User Input Text] --> B[Text Normalization]
+B --> C[TF-IDF Vectorization]
+C --> D[Dimensionality Reduction SVD]
+D --> E[Random Forest Regression Model]
+E --> F[Sentiment Score Prediction]
+F --> G[Label Mapping]
+G --> H[Positive / Neutral / Negative Output]
