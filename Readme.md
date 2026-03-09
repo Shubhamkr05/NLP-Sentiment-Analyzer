@@ -62,3 +62,17 @@ D --> E[Random Forest Regression Model]
 E --> F[Sentiment Score Prediction]
 F --> G[Label Mapping]
 G --> H[Positive / Neutral / Negative Output]
+
+## Run the Project
+
+Clone the repository
+
+git clone https://github.com/Shubhamkr05/NLP-Sentiment-Analyzer.git
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the Flask app
+
+python webapp/app.py
